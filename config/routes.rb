@@ -1,8 +1,10 @@
 Ticketee::Application.routes.draw do
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
   root :to => "projects#index"
-
+  devise_for :users
   resources :projects do
     resources :tickets
   end
