@@ -8,10 +8,11 @@
     <file path="/index.html.erb" changelist="23e8f33b-5c36-4b6b-bd97-e4da2dea5a67" time="1394008853980" ignored="false" />
     <file path="/_form.html.erb" changelist="23e8f33b-5c36-4b6b-bd97-e4da2dea5a67" time="1394016741855" ignored="false" />
     <file path="/new.html.erb" changelist="23e8f33b-5c36-4b6b-bd97-e4da2dea5a67" time="1394004016446" ignored="false" />
-    <file path="/show.html.erb" changelist="23e8f33b-5c36-4b6b-bd97-e4da2dea5a67" time="1394015811789" ignored="false" />
-    <file path="/project.rb" changelist="23e8f33b-5c36-4b6b-bd97-e4da2dea5a67" time="1394007136007" ignored="false" />
-    <file path="/edit.html.erb" changelist="23e8f33b-5c36-4b6b-bd97-e4da2dea5a67" time="1394013071607" ignored="false" />
+    <file path="/show.html.erb" changelist="23e8f33b-5c36-4b6b-bd97-e4da2dea5a67" time="1394019685372" ignored="false" />
+    <file path="/project.rb" changelist="23e8f33b-5c36-4b6b-bd97-e4da2dea5a67" time="1394019579283" ignored="false" />
+    <file path="/edit.html.erb" changelist="23e8f33b-5c36-4b6b-bd97-e4da2dea5a67" time="1394019784266" ignored="false" />
     <file path="/routes.rb" changelist="23e8f33b-5c36-4b6b-bd97-e4da2dea5a67" time="1394015868003" ignored="false" />
+    <file path="/tickets_controller.rb" changelist="23e8f33b-5c36-4b6b-bd97-e4da2dea5a67" time="1394019880506" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="8" selection-start="301" selection-end="301" vertical-scroll-proportion="0.24264705">
+            <state line="11" column="8" selection-start="301" selection-end="301" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
@@ -58,10 +59,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tickets_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tickets_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
+            <state line="36" column="5" selection-start="781" selection-end="781" vertical-scroll-proportion="0.76704544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tickets/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="49" selection-start="50" selection-end="50" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -70,7 +80,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tickets/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="6" selection-start="100" selection-end="100" vertical-scroll-proportion="-1.875">
+            <state line="4" column="63" selection-start="164" selection-end="164" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -106,16 +116,7 @@
       <file leaf-file-name="project.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/project.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="19" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/projects/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="38" selection-end="38" vertical-scroll-proportion="-1.25">
+            <state line="3" column="43" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,12 +141,13 @@
         <option value="$PROJECT_DIR$/app/views/projects/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/models/project.rb" />
         <option value="$PROJECT_DIR$/app/views/tickets/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/tickets/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/tickets/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/projects/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/project.rb" />
+        <option value="$PROJECT_DIR$/app/views/tickets/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tickets/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
       </list>
     </option>
   </component>
@@ -649,13 +651,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="23" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="20" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
@@ -712,20 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/project.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ticket.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tickets/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="20" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.625">
@@ -740,23 +721,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="8" selection-start="301" selection-end="301" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ticket.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="40" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/project.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="43" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tickets/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="100" selection-end="100" vertical-scroll-proportion="-1.875">
+        <state line="4" column="63" selection-start="164" selection-end="164" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tickets/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="49" selection-start="50" selection-end="50" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="301" selection-end="301" vertical-scroll-proportion="0.24264705">
+        <state line="36" column="5" selection-start="781" selection-end="781" vertical-scroll-proportion="0.76704544">
           <folding />
         </state>
       </provider>
